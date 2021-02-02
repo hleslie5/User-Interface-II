@@ -56,8 +56,6 @@ html {
 	box-sizing: border-box;
 }
 
-
-
 .portfolio h3 {
 	text-align: center;
 	font-size: 3em;
@@ -76,10 +74,16 @@ html {
 
 .container .button-text {
 	width: 100px;
-	height: 25px;
-	background: lightgray;
-	border: 1px solid black;
-}	
+	height: 30px;
+	background: blanchedalmond;
+	border: 1px solid blueviolet;
+	text-decoration: none;
+	color: blueviolet;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+
+}
 
 .pictures img {
 	height: 350px;
