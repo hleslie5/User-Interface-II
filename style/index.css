@@ -56,14 +56,28 @@ html {
 	box-sizing: border-box;
 }
 
+h3 {
+	text-align: center;
+	font-size: 4em;
+}
+
+h1 {
+	color: magenta;
+	font-size: 5em;
+	text-align: left;
+}
+
 .container {
 	display: flex;
+	justify-content: flex-end;
+}
 
-.container .button-text {
+.container nav .button-text {
 	width: 100px;
 	height: 25px;
 	background: lightgray;
 	border: 1px solid black;
 	margin: 20px;
-}
+}	
 
+.container nav .button-text2
