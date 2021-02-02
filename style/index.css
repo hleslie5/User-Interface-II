@@ -72,12 +72,23 @@ h1 {
 	justify-content: flex-end;
 }
 
-.container nav .button-text {
+.container .button-text {
 	width: 100px;
 	height: 25px;
 	background: lightgray;
 	border: 1px solid black;
-	margin: 20px;
+
 }	
 
-.container nav .button-text2
+
+
+.second-container {
+	display: flex;
+	justify-content: center;
+	width: 100px;
+	height: 25px;
+	background: lightgray;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
