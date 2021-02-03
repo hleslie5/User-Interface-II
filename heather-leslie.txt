@@ -1,0 +1,62 @@
+Implement a CSS reset and understand why it’s important for cross-browser development.
+
+The CSS reset starts off the web page you are designing to the default of 0 or inherit for the box model and font properties.  This being the case, the CSS will be written out manually after the CSS reset.
+
+Identify and explain all properties in the box model.
+
+The box model can be describted in terms of the acronym CPBM, standing for content/element, padding, border, and margin.  This whole grouping is a box itself.  The inner section of the box is called the content/element which is an HTML piece and is surrounded by padding and then border around the padding which is then encased with a margin.
+
+The content/element is styled in CSS with the height and width properties used within div's and img's and "other height-based elements" according to Canvas.
+
+Padding is kind of a blank area that comes after the content and before the margin.
+
+Border is as it sounds and surrounds the inner content and padding with a border of some type which can be styled in various manners.  The order is typically width, then color, and then style in the border CSS code.  
+
+After the first three parts of the inside of the box, the innermost being the content, the next being the padding, and the third being the border, there is the margin part of the box model.  The margin happens to be invisible and comes outside of the border and is the last piece of the box model itself.  (Material taken from the Canvas learning website)
+
+
+Describe and understand that flexbox is a module.
+
+Flex box is a unit after using the display: flex property on it.
+
+
+Demonstrate understanding of flex container properties in flex box.
+
+(taken from the CSS tricks website - summary)
+
+Parent Properties (in the flex box)
+
+display (indicating the flex container):  inline or block
+
+flex-direction:  left to right (ltr) or right to left (rtl)
+    row-reverse:  right to left (ltr) or left to right (rtl)
+    column:  similar to row and goes in top to bottom
+    column-reverse:  similar to row-reverse and goes bottom to top
+
+flex-wrap:  default is nowrap (all on 1 line)
+    wrap:  items on as many lines as needed going top to bottom
+    wrap-reverse:  the items in the flex container will cover as many lines as necessary in a bottom to top fashion
+
+flex-flow (abbreviation for flex-direction and flex-wrap):  main axis and cross axis defining - default is row nowrap
+
+justify-content
+    flex-start (default):  items in the flex container will begin with the flex-direction specified
+    flex-end:  items flow from the end of the flex-direction
+    start:  items pushed toward beginning of writing-mode direction
+    end:  items pushed toward the end of the writing-mode direction
+    left:  items now come toward the left side of the flex container depending on flex-direction implications
+    right:  opposite of left property above, same idea with the flex-direction being a factor
+    center:  items start in the center of the line
+    space-between:  items evenly distributed; the first line is at the start of the container while the last one is at the end
+    space-around:  items are distributed evenly, with equal space, around each line
+    space-evenly:  items evenly distributed with equal space around them
+    stretch:  lines "stretch" to fill the space left
+
+Children Properties (in the Flex Box)
+
+order:  default is source order
+flex-grow:  items in the flex box can stretch and "grow" if specified to do so
+flex-shrink:  items can be styled to shrink in CSS
+flex-basis:  defines default size of an element before remaining space is distributed (keywords - auto, content, max-content, min-content, fit-content)
+flex:  (flex-grow, flex-shrink, flex-basis) default being 0 1 auto; recommended to use this shorthand property
+align-self (align-items):  the current default alignment is overwritten when this property is introduced
