@@ -87,7 +87,6 @@ html {
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Arial Narrow Bold'
-
 }
 
 .pictures img {
@@ -97,9 +96,22 @@ html {
 
 .second-container {
 	display: flex;
+	background-color: rgb(190, 152, 124);
 	justify-content: center;
-	width: 100px;
-	height: 25px;
-	margin: 50px auto;
+	align-items: center;
+	
 }
 
+.second-container #contact {
+	display: inline-flex;
+	align-content: center;
+	background: blanchedalmond;
+	border: 1px solid rgb(216, 211, 211);
+	text-decoration: none;
+	margin: 10px 300px 10px 300px;
+	color: rgb(167, 106, 224);
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Arial Narrow Bold'
+}
