@@ -101,18 +101,22 @@ html {
 	padding: 50px;
 }
 
-.pictures-container p.pictures-set-1 img {
+.pictures-container {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 }
 
-.pictures-container p.pictures-set-2 img {
-	display: flex;
+.pictures-set-1 img {
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;	
+	height: 400px;
+	width: fixed;
+	padding-inline: 35px;
+}
+
+.pictures-set-2 img {
+	flex-direction: row;
+	height: 400px;
+	width: fixed;
+	padding-inline: 35px;
 }
 
 .second-container {
