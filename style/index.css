@@ -110,6 +110,7 @@ html {
 	height: 400px;
 	width: fixed;
 	padding-inline: 35px;
+	padding-top: 35px;
 }
 
 .pictures-set-2 img {
@@ -117,6 +118,7 @@ html {
 	height: 400px;
 	width: fixed;
 	padding-inline: 35px;
+	padding-top: 35px;
 }
 
 .second-container {
@@ -125,6 +127,7 @@ html {
 	align-items: center;
 	height: 140px;
 	width: auto;
+	margin-top: 35px;
 }
 
 .second-container #contact {
