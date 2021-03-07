@@ -67,14 +67,15 @@ html {
 .container h1 {
 	color: rgb(167, 106, 224);
 	font-size: 4em;
-	padding: 0px 1270px 15px 25px;
+	align-items: left;
+	padding-right: 1250px;
 	font-family: cursive;
 }
 
 .container {
 	display: flex;
-	justify-content: flex-end;
-	margin-right: 30px;
+	justify-content: center;
+	align-content: center;
 }
 
 .container .button-text {
@@ -94,21 +95,29 @@ html {
 .flex-container {
 	display: flex;
 	justify-content: center;
-	margin: 100px;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+	padding: 50px;
 }
 
-.pictures-container p.pictures-set-1 {
+.pictures-container {
 	display: flex;
-	justify-content: center;
-	height: 200px;
-	width: 200px;
+	flex-direction: row;
 }
 
-.pictures-container p.pictures-set-2 {
-	display: flex;
+.pictures-container p.pictures-set-1 img {
 	justify-content: center;
-	height: 200px;
-	width: 200px;
+	align-items: center;
+	max-width: auto;
+	
+}
+
+.pictures-container p.pictures-set-2 img {
+	justify-content: center;
+	align-items: center;
+	max-width: auto;
+	
 }
 
 .second-container {
